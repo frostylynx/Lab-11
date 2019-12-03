@@ -50,7 +50,7 @@ public final class StudentAttackerController implements AttackerController {
 
 		int minimumIndex = 0;
 		int secondIndex = 1;
-		for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < 4; i++) {//4 defenders, index 0-3
 			if (distances[i] < distances[minimumIndex] && distances[i] > 0) {
 				minimumIndex = i;
 			}
